@@ -1,6 +1,8 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import "../Components/component-css/home.css";
+
 export function Home() {
   return (
     <div>

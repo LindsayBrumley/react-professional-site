@@ -1,0 +1,8 @@
+.title {
+  font-family: "Yeseva One", cursive;
+  font-size: 50px;
+  color: #77867f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
