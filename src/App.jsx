@@ -1,10 +1,12 @@
-import { useState } from "react";
 import "./App.css";
-import { Routes, Route, Link, useNavigate, NavLink } from "react-router-dom";
+import { Routes, Route, Link, useNavigate } from "react-router-dom";
 import { Home } from "../src/Components/Home";
-import { Contact } from "..src/Components/Contact";
-import { Porfolio } from "..src/Components/Porfolio";
 import { About } from "../src/Components/About";
+import { Portfolio } from "../src/Components/Portfolio";
+import { Contact } from "../src/Components/Contact";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+
 function App() {
   const navigate = useNavigate();
 
@@ -22,7 +24,22 @@ function App() {
       </header>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
+      <footer className="footer">
+        <div>
+          <a
+            href="https:github.com/LindsayBrumley"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="github"
+          >
+            <FontAwesomeIcon icon={faGithub} /> Github
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
