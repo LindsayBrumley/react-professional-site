@@ -1,16 +1,35 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
   background-color: #000000;
 }
-
 nav {
   padding-top: 15px;
 }
 
 .links {
   font-family: "Josefin Sans", sans-serif;
+  color: antiquewhite;
   display: flex;
   justify-content: space-around;
   padding-left: 900px;
   align-self: center;
   margin: 20px;
+}
+
+.links a {
+  color: antiquewhite;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.links a:hover {
+  color: rgb(173, 72, 39);
+}
+.links a:visited {
+  color: antiquewhite;
+  text-decoration: none;
+  transition: color 0.3s ease;
 }

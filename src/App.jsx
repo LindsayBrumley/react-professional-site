@@ -8,7 +8,7 @@ import { Contact } from "../src/Components/Contact";
 export default function App() {
   const location = useLocation();
   return (
-    <div>
+    <div className="parent">
       <nav>
         <div className="links">
           {location.pathname !== "/" && <Link to="/">Home</Link>}
