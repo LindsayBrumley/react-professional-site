@@ -3,15 +3,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-body {
-  background: linear-gradient(
-    to bottom right,
-    #000000,
-    #226f54,
-    #f4978e,
-    #ae430a
-  );
-}
 nav {
   padding-top: 15px;
 }

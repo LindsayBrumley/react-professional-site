@@ -1,3 +1,14 @@
+body {
+  background: linear-gradient(
+    to bottom right,
+    #000000,
+    #226f54,
+    #f4978e,
+    #ae430a
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
 .home-page {
   display: flex;
   flex-direction: column;
@@ -14,11 +25,15 @@
 }
 .headshot {
   flex: 1;
-  padding: 20px;
   justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
 .photo {
-  height: 720px;
+  max-height: 100%;
+  max-width: 100%;
+  width: 400px;
+  height: auto;
 }
 
 .frame-container {
@@ -74,76 +89,3 @@ footer {
 .social-icon:hover {
   transform: scale(1.2);
 }
-
-/* figure.snip1113 {
-  font-family: "Nunito", sans-serif;
-  position: relative;
-  overflow: hidden;
-  margin: 10px;
-  min-width: 600px;
-  max-width: 800px;
-  width: 100%;
-  background: #000000;
-  text-align: center;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
-}
-
-figure.snip1113 * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-figure.snip1113 img {
-  max-width: 80%;
-  margin: 16px auto;
-  display: block;
-  position: relative;
-  border: 4px solid #666666;
-  padding: 30px;
-  -webkit-transform: translate(0, 0);
-  transform: translate(0, 0);
-}
-
-figure.snip1113 figcaption {
-  position: absolute;
-  height: 120px;
-  bottom: 0px;
-  left: 0;
-  right: 0;
-  display: block;
-  padding: 15px;
-}
-
-figure.snip1113 h3 {
-  background-color: #000000;
-  color: antiquewhite;
-  font-size: 1.7em;
-  width: 100%;
-  padding: 10px 12px;
-  margin: 0;
-  text-transform: uppercase;
-  font-weight: 400;
-}
-
-figure.snip1113 h3 span {
-  font-weight: 800;
-}
-
-figure.snip1113 h4 {
-  margin: 0;
-  text-transform: uppercase;
-  letter-spacing: -1px;
-  opacity: 0.6;
-  font-size: 1.1em;
-}
-
-figure.snip1113.white img {
-  border-color: antiquewhite;
-}
-
-figure.snip1113.white h3,
-figure.snip1113.white h4 {
-  color: antiquewhite;
-} */
