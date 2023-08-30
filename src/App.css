@@ -4,7 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #000000;
+  background: linear-gradient(
+    to bottom right,
+    #000000,
+    #226f54,
+    #f4978e,
+    #ae430a
+  );
 }
 nav {
   padding-top: 15px;
@@ -13,6 +19,7 @@ nav {
 .links {
   font-family: "Josefin Sans", sans-serif;
   color: antiquewhite;
+  font-size: 22px;
   display: flex;
   justify-content: space-around;
   padding-left: 900px;
@@ -23,10 +30,11 @@ nav {
 .links a {
   color: antiquewhite;
   text-decoration: none;
-  transition: color 0.3s ease;
+  transition: color 0.5s ease;
 }
 .links a:hover {
-  color: rgb(173, 72, 39);
+  color: #f4978e;
+  transform: scale(1.2);
 }
 .links a:visited {
   color: antiquewhite;
