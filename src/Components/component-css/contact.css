@@ -13,6 +13,7 @@ body {
   );
   background-repeat: no-repeat;
   font-family: "Josefin Sans", sans-serif;
+  background-size: 100% 100%;
 }
 
 header {
@@ -31,6 +32,7 @@ header {
   padding-right: 150px;
   padding-left: 100px;
 }
+
 .contact-info {
   flex: 2;
   display: flex;

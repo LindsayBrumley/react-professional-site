@@ -13,6 +13,7 @@ body {
   );
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  min-height: 100vh;
 }
 .home-page {
   display: flex;
@@ -48,6 +49,7 @@ body {
   width: 400px;
   height: auto;
 }
+
 .title-container {
   flex: 2;
   display: flex;
