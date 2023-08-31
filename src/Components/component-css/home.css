@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   background: linear-gradient(
     to bottom right,
@@ -29,12 +34,6 @@ body {
   align-items: center;
   padding: 20px;
 }
-.photo {
-  max-height: 100%;
-  max-width: 100%;
-  width: 400px;
-  height: auto;
-}
 
 .frame-container {
   --s: 40px;
@@ -43,7 +42,12 @@ body {
   outline: 1px solid antiquewhite;
   background: conic-gradient(from 90deg at 1px 1px, #0000 25%, #000 0);
 }
-
+.photo {
+  max-height: 100%;
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+}
 .title-container {
   flex: 2;
   display: flex;
