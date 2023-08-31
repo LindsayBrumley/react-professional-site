@@ -10,8 +10,10 @@ export function Contact() {
             href="mailto:lindsay.a.brumley@gmail.com?subject=Subject%20Here&body=Hello%20there"
             className="contact-links"
           >
-            Send me an email
+            lindsay.a.brumley@gmail.com
           </a>
+
+          <p className="socials">Check out my social sites</p>
           <a
             href="https://www.linkedin.com/in/lindsaybrumley/"
             className="contact-links"

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to bottom right,
+    #000000,
+    #226f54,
+    #f4978e,
+    #ae430a
+  );
+  background-repeat: no-repeat;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.about-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Yeseva one;
+  font-size: 35px;
+  color: antiquewhite;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+
+.about-container {
+}

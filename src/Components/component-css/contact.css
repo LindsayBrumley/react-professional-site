@@ -42,6 +42,11 @@ header {
   padding: 100px;
 }
 
+.socials {
+  font-family: Yeseva one;
+  color: antiquewhite;
+  text-decoration: underline;
+}
 .contact-links {
   color: antiquewhite;
   text-decoration: none;
@@ -53,14 +58,13 @@ header {
 }
 
 .container-frame {
-  --s: 40px;
+  border: 60px;
   width: fit-content;
-  padding: var(--s);
+  height: fit-content;
+  padding: 20px;
   outline: 1px solid antiquewhite;
-  background: conic-gradient(from 90deg at 1px 1px, #0000 25%, #000 0);
 }
 
 .power-stance {
   height: 500px;
-  /* padding-right: 300px; */
 }
