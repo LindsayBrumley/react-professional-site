@@ -15,10 +15,7 @@ export function About() {
           src="https://drive.google.com/uc?export=view&id=1CCjIvQYzAojVAy8AwQriehQHuVMbRiss"
           className="bigluke"
         />
-        {/* <img
-          src=""
-          className="family"
-        /> */}
+
         <p className="p-3"></p>
         <img
           src="https://drive.google.com/uc?export=view&id=1cKojhprXwQfXCDwJmFbdDwLSsi21xJF3"

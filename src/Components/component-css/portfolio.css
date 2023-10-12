@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.portfolio-container {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.portfolio {
+  font-family: "Yeseva One", cursive;
+  font-size: 50px;
+  color: antiquewhite;
+  font-size: 35px;
+  display: flex;
+  padding-bottom: 60px;
+}
+
+.project-description {
+  font-family: "Josefin Sans", sans-serif;
+  color: antiquewhite;
+  font-size: 27px;
+  padding-bottom: 50px;
+}
+
+.portfolio-links {
+  font-family: "Josefin Sans", sans-serif;
+  color: antiquewhite;
+  font-size: 35px;
+}
