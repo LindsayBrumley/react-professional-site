@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 nav {
   padding-top: 15px;
 }
@@ -31,4 +32,39 @@ nav {
   color: antiquewhite;
   text-decoration: none;
   transition: color 0.3s ease;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+  header {
+    padding: 10px; /* Add padding to the header for spacing */
+  }
+
+  nav {
+    display: block; /* Change navigation to a block for better stacking */
+    text-align: center; /* Center-align navigation links */
+    padding: 10px; /* Add padding for better spacing */
+  }
+
+  main {
+    padding: 10px; /* Add padding to the main content for spacing */
+  }
+
+  footer {
+    padding: 10px; /* Add padding to the footer for spacing */
+  }
+
+  img {
+    max-width: 100%; /* Ensure images don't exceed the width of their container */
+    height: auto; /* Maintain aspect ratio */
+  }
+
+  /* Example: Stack columns for better readability on smaller screens */
+  .column {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 0 10px; /* Add some spacing between stacked columns */
+  }
 }
