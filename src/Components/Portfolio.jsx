@@ -15,7 +15,7 @@ export function Portfolio() {
       </p>
 
       <a
-        href="https://github.com/LindsayBrumley/stranger-s-things"
+        href="https://incandescent-bavarois-13fe6b.netlify.app"
         className="portfolio-links"
       >
         Stranger's Things
