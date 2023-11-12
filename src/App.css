@@ -14,7 +14,7 @@ nav {
   font-size: 22px;
   display: flex;
   justify-content: space-around;
-  padding-left: 900px;
+  padding-left: 5%;
   align-self: center;
   margin: 20px;
 }
@@ -38,33 +38,21 @@ nav {
   body {
     font-size: 14px;
   }
-  header {
-    padding: 10px; /* Add padding to the header for spacing */
-  }
-
-  nav {
-    display: block; /* Change navigation to a block for better stacking */
-    text-align: center; /* Center-align navigation links */
-    padding: 10px; /* Add padding for better spacing */
-  }
-
-  main {
-    padding: 10px; /* Add padding to the main content for spacing */
-  }
-
+  header,
+  nav,
+  main,
   footer {
-    padding: 10px; /* Add padding to the footer for spacing */
+    padding: 10px;
   }
 
   img {
-    max-width: 100%; /* Ensure images don't exceed the width of their container */
-    height: auto; /* Maintain aspect ratio */
+    max-width: 100%;
+    height: auto;
   }
 
-  /* Example: Stack columns for better readability on smaller screens */
   .column {
     width: 100%;
     box-sizing: border-box;
-    margin: 0 0 10px; /* Add some spacing between stacked columns */
+    margin: 0 0 10px;
   }
 }
