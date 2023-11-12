@@ -12,8 +12,6 @@ body {
     #f4978e,
     #ae430a
   );
-  background-repeat: no-repeat;
-  font-family: "Josefin Sans", sans-serif;
 }
 
 .about-title {
@@ -28,36 +26,34 @@ body {
 }
 
 .about-container {
+  background-repeat: no-repeat;
+  font-family: "Josefin Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
 }
 
-.austin {
-  height: 600px;
+.p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 35px;
+  color: antiquewhite;
+  padding: 20px;
+  padding-bottom: 50px;
+  text-align: justify;
 }
-
-.bigluke {
-  height: 400px;
-}
-
-.boulder1 {
-  height: 600px;
-}
-
-.boulder2 {
-  height: 600px;
-}
-
-.guitar {
-  height: 600px;
-}
-
-.keys {
-  height: 600px;
-}
-
-.salon {
-  height: 700px;
-}
-
-.family {
-  height: 700px;
+.austin,
+.bigluke,
+.boulder1,
+.boulder1,
+.guitar,
+.keys,
+.salon,
+.view {
+  max-width: 100%;
+  margin: 0 auto;
 }

@@ -5,7 +5,7 @@ export function Portfolio() {
     <div className="portfolio-container">
       <h1 className="portfolio">Portfolio</h1>
       <a
-        href="https://github.com/LindsayBrumley/grace-shopper"
+        href="https://grace-shopper-gqui.onrender.com/"
         className="portfolio-links"
       >
         Grace Shopper
