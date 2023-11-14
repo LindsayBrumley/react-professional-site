@@ -34,25 +34,11 @@ nav {
   transition: color 0.3s ease;
 }
 
-@media only screen and (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-  header,
-  nav,
-  main,
-  footer {
+@media only screen and (max-width: 480px) {
+  .parent {
     padding: 10px;
-  }
-
-  img {
-    max-width: 100%;
-    height: auto;
-  }
-
-  .column {
-    width: 100%;
     box-sizing: border-box;
-    margin: 0 0 10px;
+    display: flex;
+    flex-direction: column;
   }
 }
