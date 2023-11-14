@@ -28,6 +28,7 @@ export function Contact() {
           <img
             src="https://drive.google.com/uc?export=view&id=10uLrNKJMFFjnn_QihwYuQvuaL2xS_JU8"
             className="power-stance"
+            alt="Lindsay standing with hands on hips"
           ></img>
         </div>
       </div>

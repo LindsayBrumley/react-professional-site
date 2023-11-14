@@ -22,7 +22,7 @@ export function Home() {
               Lindsay Brumley
             </a>
           </h1>
-          <p className="description">Junior Software Engineer</p>
+          <p className="description">Software Engineer</p>
         </div>
       </div>
       <footer>
